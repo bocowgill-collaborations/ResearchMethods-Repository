@@ -29,3 +29,8 @@ esttab regression_one using Ai-Experiment-Table.tex, $tableoptions keep(readethi
 * FOR PEOPLE USING MICROSOFT: 
 global tableoptions "bf(%15.2gc) sfmt(%15.2gc) se label noisily noeqlines nonumbers varlabels(_cons Constant, end("" ) nolast)  starlevels(* 0.1 ** 0.05 *** 0.01) replace r2"
 esttab regression_one using Ai-Experiment-Table.rtf, $tableoptions keep(readethicsarticle) 
+
+**********************************
+* FOR PEOPLE USING GOOGLE DOCS: 
+* Use the code for MSFT, then copy/past the results into your table. 
+* A single copy/past is better than manually creating your entire table! 
